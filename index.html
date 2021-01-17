@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cssgrid.css">
+    <link rel="shortcut icon" href="#" />
+
+    <script src="https://kit.fontawesome.com/2e9d1c7e9e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <header class="Header">
+
+            <!---div for mobile menu is  for fas fa-bars is for Mobile menu  only. In css this is set to display none to hide while in fullscreen-->
+            <div class="mobile-menu">
+                <i id="mobile-click" class="fas fa-bars fa-2x fa-border "></i>
+                <i id='mobile-close' class="fas fa-times fa-2x fa-border times"></i>
+
+            </div>
+            <!---This is the unordered list  container that is created by Javascript-->
+            <nav class="dynamicMenu">
+
+                <!--- container for the Unordered list -->
+                <div id="listMenu">
+
+                </div>
+            </nav>
+            <div class="header-main">
+
+                <h1>The Candi Shoppe</h1>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <button>Subscribe</button>
+            </div>
+        </header>
+        <main id="main" class="main">
+
+            <section class="aboutUs" id="about">
+                <div class="aboutUs-text">
+                    <h2 class="none">About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pharetra lorem non purus accumsan
+                        tincidunt. Nam rhoncus egestas erat ut dapibus. Mauris purus elit, mollis ut hendrerit et,
+                        blandit
+                        id metus. Morbi hendrerit risus at nulla varius, ac condimentum nisi commodo. Nulla laoreet
+                        pellentesque euismod. Sed pulvinar consectetur tellus, in dignissim turpis egestas ut.
+                    </p>
+
+                </div>
+                <div class="image-About">
+                    <img class="teaCup" src="pictures/onecandy.jpg" alt="Image of product">
+                </div>
+            </section>
+
+            <section class="faq" id = "faq">
+                <div class="test-wrapper">
+                    <div class="test-faq">
+                        <h2>Frequently asked questions </h2>
+                    </div>
+                    <div class="test">
+                        <ul id="test-list" class="test-list">
+                            <li class="menu-list-item">
+                                <h3 class="faq"> How much does this service cost? <span>🍬</span></h3>
+                                <div class="active">
+                                    <div class="test-details">
+                                        <p>Lorem ipsum dolor sit amet.</p>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-list-item">
+                                <h3 class="faq">How long is shipping?<span>🍬</span></h3>
+
+                                <div class="active">
+                                    <div class="test-details">
+
+                                        <p>Lorem ipsum dolor sit amet </p>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-list-item">
+                                <h3 class="faq">Can I cancel anytime? <span>🍬</span></h3>
+
+                                <div class="active">
+                                    <div class="test-details">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-list-item">
+                                <h3 class="faq">How does your service work <span>🍬</span></h3>
+                                <div class="active">
+                                    <div class="test-details">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu mollis
+                                            sem, eu cursus lacus. Etiam ultricies, augue in ultrices auctor.</p>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-list-item">
+                                <h3 class="faq">Do i get to choose flavors? <span>🍬</span></h3>
+
+                                <div class="active">
+                                    <div class="test-details">
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu mollis
+                                            sem, eu cursus lacus. Etiam ultricies, augue in ultrices auctor.</p>
+
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="menu-list-item">
+                                <h3 class="faq">What is your return policy <span>🍬</span></h3>
+
+                                <div class="active">
+                                    <div class="test-details">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu mollis
+                                            sem, eu cursus lacus. Etiam ultricies, augue in ultrices aucto. </p>
+
+                                    </div>
+
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+
+    <section class="services" id="services">
+        <div class="services-flex">
+            <h2>Our Services</h2>
+            <p>Simple and free you can start promoting your site right now. Thousands of people join everyday.
+            </p>
+        </div>
+        <div class="nested-grid ">
+            <div class="example-box1">
+                <div class="icon mail">
+                    <i class="fas fa-mail-bulk"></i>
+                </div>
+                <div class="example1-text">
+                    <h3>Cutting Edge</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum posuere neque,
+                        sed semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh.
+                        Vestibulum mollis nulla id mattis venenatis. Nunc efficitur vulputate iaculis.</p>
+                </div>
+
+            </div>
+            <div class="example-box2">
+                <div class="icon medal">
+                    <i class="fas fa-medal"></i>
+                </div>
+                <div class="example2-text">
+                    <h3>Quality Service</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum posuere neque,
+                        sed semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh.
+                        Vestibulum mollis nulla id mattis venenatis. Nunc efficitur vulputate iaculis.</p>
+                </div>
+            </div>
+            <div class="example-box3">
+                <div class="icon dollar">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <div class="example3-text">
+                    <h3>Earn Cash</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum posuere neque,
+                        sed semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh.
+                        Vestibulum mollis nulla id mattis venenatis. Nunc efficitur vulputate iaculis.</p>
+                </div>
+            </div>
+            <div class="example-box4">
+                <div class="icon laptop">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <div class="example4-text">
+                    <h3>Custom built System</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum posuere neque,
+                        sed semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh.
+                        Vestibulum mollis nulla id mattis venenatis. Nunc efficitur vulputate iaculis.</p>
+                </div>
+            </div>
+            <div class="example-box5">
+                <div class="icon copyright">
+                    <i class="fas fa-copyright"></i>
+                </div>
+                <div class="example5-text">
+                    <h3>Your Brand </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum posuere neque,
+                        sed semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh.
+                        Vestibulum mollis nulla id mattis venenatis. Nunc efficitur vulputate iaculis.</p>
+                </div>
+            </div>
+            <div class="example-box6">
+                <div class="icon users">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="example6-text">
+                    <h3>Active Users</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla condimentum posuere neque,
+                        sed semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh.
+                        Vestibulum mollis nulla id mattis venenatis. Nunc efficitur vulputate iaculis.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="newsletter" id="newsletter">
+        <div class="newsletter">
+            <h2>Newsletter</h2>
+            <p>Subscribe to our newsletter</p>
+            <div class="newsform">
+                <form class="email-form">
+                    <input type="text" value="Enter Email">
+                    <p class="small">We promise we will not sell your information</p>
+                    <input type="submit" value="Sign up now">
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="header">
+            <h2>Testimonials</h2>
+        </div>
+        <div class="grid-test">
+            <div class="test1">
+                <p><i class="fas fa-quote-left"></i> &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla condimentum posuere neque, sed
+                    semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh. &#8211;</p>
+            </div>
+            <div class="test2">
+                <p> <i class="fas fa-quote-left"></i> &nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla condimentum posuere neque, sed
+                    semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh. &#8211;</p>
+            </div>
+            <div class="test3">
+                <p> <i class="fas fa-quote-left"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla condimentum posuere neque, sed
+                    semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh. &#8211;</p>
+            </div>
+            <div class="test4">
+                <p> <i class="fas fa-quote-left"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla condimentum posuere neque, sed
+                    semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh. &#8211;</p>
+            </div>
+            <div class="test5">
+                <p> <i class="fas fa-quote-left"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla condimentum posuere neque, sed
+                    semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh. &#8211;</p>
+            </div>
+            <div class="test6">
+                <p> <i class="fas fa-quote-left"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nulla condimentum posuere neque, sed
+                    semper augue rutrum feugiat. In et ex sed sem semper ultricies ac quis nibh. &#8211;</p>
+            </div>
+
+
+        </div>
+    </section>
+    <i class="fas fa-arrow-up " id="upArrow"></i>
+
+    </main>
+    <footer class="footer">
+
+        <div class="flex-footer">
+            <p>This is what dreams are made of.💖</p>
+        </div>
+
+
+    </footer>
+    </div>
+
+
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+
+body{
+  margin:0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.teaCup{
+    width: 300px;
+    height: 250px;
+    margin-left: 3rem;
+}
+.aboutUs-text {
+    text-align: justify;
+    width: 50%;
+    margin: 15px;
+}
+
+.aboutUs{
+    width: 70%;
+    margin: auto;
+    height:760px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+  body{
+    font-family: 'Poiret One', cursive; 
+    font-size:20px
+}
+
+  .services-flex{
+      text-align:center;
+      margin:3rem 0 3rem 0;
+}
+
+  .newsletter {
+    text-align: center;
+    height: 250px;
+}
+
+  .testimonials{
+    height:585px;
+}
+ 
+ .flex-footer{
+   height:50px;
+
+}
+
+  .grid-test{
+    margin: auto;
+    border: 1px solid beige;
+    text-align: justify;
+    width: 75%;
+    padding: 25px;
+}
+
+  .mobile-menu{
+    display:none;
+}
+
+  .mobile-menu > .fa-times{
+    display:none;
+    
+}
+
+   a{
+     color:black;
+}
+
+   .services{
+     height:620;
+}
+
+  .mobile-teacup{
+    display:none;
+}
+
+  .changeColor {
+    color: #FF1493;
+}
+ 
+  .header-main{
+    background-image: url("../pictures/windmill.jpg");
+    height:500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 10px;
+}
+    
+  .test-wrapper{
+    background-image:url("../pictures/mnm.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;  
+
+}
+
+  form.email-form {
+    margin: 0px 0px 100px 0px
+}
+  
+  .test-list{
+    width:25%;
+    margin:auto;
+}
+  .test-wrapper,
+  h2{
+    text-align: center;
+}
+
+  h1{
+    color:pink;
+}
+  
+.footer{
+  background-color:aliceblue;
+}
+
+.border {
+  border-bottom:1px solid black;
+}
+
+nav.dynamicMenu {
+  position: fixed;
+  width: 100%;
+  background: white;
+}
+
+.pink{
+  color:pink;
+  background-color: azure;
+}

@@ -1,0 +1,92 @@
+@media (max-width: 425px) and (min-width: 320px) {
+    * {
+      box-sizing: border-box;
+    }
+
+    .header-main,
+    .test-wrapper {
+      background-attachment: scroll;
+      padding: 18px;
+    }
+  
+    .teaCup {
+      display: none;
+    }
+
+    .mobile-menu {
+      display: block;
+    }
+
+    .header-main > p {
+        text-align:center;
+    }
+    .header-main > h1 {
+        font-size: 1em;
+    }
+
+    .aboutUs,
+    .aboutUs-text {
+      width: 100%;
+    }
+
+    .aboutUs-text{
+        margin:0px;
+    }
+
+    .test1,
+    .test2,
+    .test3,
+    .test4,
+    .test5,
+    .test6 {
+      grid-column: 1/4;
+    }
+  
+    .example-box1,
+    .example-box2,
+    .example-box3,
+    .example-box4,
+    .example-box5,
+    .example-box6 {
+      grid-column: 1/4;
+    }
+  
+    .test-list {
+      width: 75%;
+    }
+
+    nav.dynamicMenu {
+      position: relative;
+    }
+
+    .flex-ul {
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .flex-ul {
+      display: none;
+    }
+
+    .flex-footer {
+        height:50px;
+    }
+
+    .testimonials{
+        height: 1375px;
+    }
+    .grid-test {
+        width:100%;
+    }
+    
+  }
+@media (min-width: 768px) {
+    .testimonials{
+        height:629px;
+    }
+    
+    .aboutUs-text{
+        width:100%;
+    }
+}
+  
